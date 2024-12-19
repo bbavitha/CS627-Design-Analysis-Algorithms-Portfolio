@@ -79,6 +79,24 @@ Compare two binary images row by row using a dynamic programming approach to mea
 - [Algorithm Design (Kleinberg & Tardos)](https://www.pearson.com/)
 - [Engineering Optimization (Rao)](https://www.wiley.com/)
 
+### 5. Sudoku Solver AI 
+
+**Objective**: 
+Designed a software agent with artificial intelligence that can solve any Sudoku puzzle using heuristic methods and constraint propagation from a given starting state. 
+
+**Key Features**:
+The AI agent uses backtracking combined with the "Most Constrained Variable" (MCV) heuristic and forward checking to reduce search space. 
+
+Time Complexity: The brute-force ​algorithm is O​(9^k), where k is the number of empty cells in the puzzle. Since heuristic methods greatly reduce the complexity in practice. 
+
+**Highlights**: 
+State Space Representation: Each state is a configuration of 9x9 grid building on Sudoku boards. A puzzle will be given as the initial state while a fully solved board is the goal state, satisfying all Sudoku rules. 
+
+Heuristic Search: MCV heuristic fills the cell with the least valid options in order to minimize conflicts and unnecessary computation. 
+
+**References**:
+- Knuth, D. E. (1997). The Art of Computer Programming: Volume 1: Fundamental Algorithms (3rd ed.). Addison-Wesley. 
+- Sudoku. (n.d.). Rules of Sudoku. Retrieved from http://www.sudoku.com 
 ---
 
 ## How to Use This Repository
@@ -94,3 +112,6 @@ Compare two binary images row by row using a dynamic programming approach to mea
 - Kleinberg, J., & Tardos, É. (2006). *Algorithm Design*. Pearson.
 - Stroustrup, B. (2013). *The C++ Programming Language* (4th ed.). Addison-Wesley.
 - Few, S. (2012). *Show Me the Numbers: Designing Tables and Graphs to Enlighten*. Analytics Press.
+- Norvig, P. (2009). Solving every Sudoku puzzle. Retrieved from https://norvig.com/sudoku.html 
+- Knuth, D. E. (1997). The Art of Computer Programming: Volume 1: Fundamental Algorithms (3rd ed.). Addison-Wesley. 
+- Sudoku. (n.d.). Rules of Sudoku. Retrieved from http://www.sudoku.com 
